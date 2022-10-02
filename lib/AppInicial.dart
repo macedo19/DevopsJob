@@ -14,10 +14,27 @@ class _AppInicialState extends State<AppInicial> {
       ),
       body: Container(
         child: Column(
-          children: [
-
-          ],
+          children: [],
         ),
+      ),
+      bottomNavigationBar: BottomNavigationBar(
+        items: const [
+          BottomNavigationBarItem(
+            icon: Icon(Icons.home),
+            label: 'Home',
+            backgroundColor: Colors.red,
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.edit),
+            label: 'Editar',
+            backgroundColor: Colors.red,
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.surfing),
+            label: 'Navegar',
+            backgroundColor: Colors.red,
+          ),
+        ],
       ),
     );
   }

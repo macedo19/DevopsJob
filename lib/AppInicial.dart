@@ -14,9 +14,7 @@ class _AppInicialState extends State<AppInicial> {
       ),
       body: Container(
         child: Column(
-          children: [
-
-          ],
+          children: [],
         ),
       ),
     );

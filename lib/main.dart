@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 
+import 'AppInicial.dart';
+
 void main() {
   runApp(
-    const AppInicial()
+    AppInicial()
   );
 }
 
